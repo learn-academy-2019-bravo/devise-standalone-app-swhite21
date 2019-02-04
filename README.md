@@ -1,24 +1,12 @@
-# README
+### Challenge
+- Continue with the Skateboard challenge
+- Add a single page app for the Unauthenticated routes that contains the applications Home page
+- Add a single page app for the Authenticated routes that contains the Index page for Skateboards.
+- Add the New Skateboard functionality to the Authenticated Application.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Stretch Challenges
+- edit the header to show a logout button when user is logged in and a log in button when user is guest.
+- create a dashboard that shows all information for the logged in user.
+- Add Bootstrap to customize the look and feel of the application.
+- Generate the Registration/Login views and improve their UI.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
