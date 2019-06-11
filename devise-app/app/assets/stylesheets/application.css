@@ -36,3 +36,19 @@
   padding: 10px;
   text-align: center;
 }
+#login{
+max-width: 400px;
+margin: auto;
+margin-top: 5%;
+justify-content: center;
+}
+#login-bg{
+  background: #FFAB5C;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+body{
+  background: #FFAB5C;
+  background-image: url("https://media.giphy.com/media/x00hSkdqDTQLUDiiW7/giphy.gif");
+   background-repeat: no-repeat, repeat;
+}
