@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  wheel_brand: MyString
+  string: MyString
+  width: MyString
+  integer: MyString
+  trucks_brand: MyString
+  string: MyString
+  user_id: MyString
+  integer: MyString
+
+two:
+  wheel_brand: MyString
+  string: MyString
+  width: MyString
+  integer: MyString
+  trucks_brand: MyString
+  string: MyString
+  user_id: MyString
+  integer: MyString

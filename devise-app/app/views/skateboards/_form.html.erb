@@ -1,0 +1,35 @@
+<%= form_with(model: skateboard, local: true) do |form| %>
+  <% if skateboard.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(skateboard.errors.count, "error") %> prohibited this skateboard from being saved:</h2>
+
+      <ul>
+      <% skateboard.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<div id="skateform" class="input-group mb-3">
+  <div class="field">
+    <%= form.label :wheel_brand %>
+    <%= form.text_field :wheel_brand %>
+  </div>
+
+
+  <div class="field">
+    <%= form.label :width %>
+    <%= form.number_field :width %>
+  </div>
+
+  <div class="field">
+    <%= form.label :trucks_brand %>
+    <%= form.text_field :trucks_brand %>
+  </div>
+
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+</div>
+<% end %>
